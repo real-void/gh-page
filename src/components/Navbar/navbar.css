@@ -1,0 +1,22 @@
+.navbar {
+    background-color: var(--accent);
+    padding: 20px 28px;
+    border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
+}
+
+@media (max-width: 801px) {
+    #navbar_internal_container {
+        flex-direction: column;
+    }
+    #logo_container {
+        justify-content: center!important;
+    }
+}
+@media (max-width: 620px) {
+    #navbar_internal_container {
+        flex-direction: row;
+    }
+    #logo_container {
+        justify-content: flex-end!important;
+    }
+}

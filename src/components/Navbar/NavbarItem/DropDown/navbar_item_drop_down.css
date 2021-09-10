@@ -1,0 +1,11 @@
+.navbar-item-dropdown {
+    display: none;
+}
+.navbar-item-dropdown:hover .navbar-items{
+    display: flex!important;
+}
+@media (max-width: 620px) {
+    .navbar-item-dropdown {
+        display: block!important;
+    }
+}

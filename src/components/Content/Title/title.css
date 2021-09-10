@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.title {
+    font-size: 30px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--accent);
+    user-select: none;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.title-internal {
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--accent);
+}

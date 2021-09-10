@@ -1,0 +1,57 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.full-height {
+    height: 100%;
+}
+.full-width {
+    width: 100%;
+}
+.half-width {
+    width: 50%;
+}
+
+.c-font-default {
+    font-family: Nunito, sans-serif;
+    letter-spacing: 0.25rem;
+}
+
+.buttons-text-size {
+    font-size: 21px;
+}
+
+.cursor-p {
+    cursor: pointer;
+    user-select: none;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+.space-e {
+    justify-content: space-evenly;
+}
+
+.cut-background {
+    background-image:
+            linear-gradient(5deg, black 5vw, transparent 10%),
+            linear-gradient(-10deg, black 20%, transparent 10%);
+}
+
+.black {
+    background-color: black;
+}
+
+.content-container {
+    padding: 50px;
+}

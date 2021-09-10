@@ -1,0 +1,21 @@
+.navbar-item {
+    padding: 12px 23px;
+    background: black;
+    color: var(--accent);
+    box-shadow: 0 0 13px black;
+    transition: all 0.21s, background-color 0.5s, color 0.5s;
+    border: 3px solid black;
+
+}
+.navbar-item:hover {
+    box-shadow: 0 0 35px black;
+    background: var(--accent);
+    color: black;
+}
+.navbar-items{}
+
+@media (max-width: 620px) {
+    .navbar-items {
+        display: none!important;
+    }
+}

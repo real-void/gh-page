@@ -1,0 +1,5 @@
+@media (max-width: 620px) {
+    .connect-box-holder {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,13 @@
+.change-quote-button {
+    background-color: var(--accent);
+    color: black;
+    border-radius: var(--border-radius-default);
+    padding: 15px;
+    border: 2px solid var(--accent);
+    margin: auto;
+    transition: all 0.5s;
+}
+.change-quote-button:hover {
+    background-color: black;
+    color: var(--accent);
+}

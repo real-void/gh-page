@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import "../../../Content/Paragraph/paragraph.css";
+.quote-box {
+    width: 250px;
+    background-color: var(--accent);
+    border-radius: var(--border-radius-default);
+    border: 1px solid var(--accent);
+    padding: 20px;
+    cursor: default;
+    user-select: none;
+    transition: all 0.5s;
+}
+.quote-body {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    transition: all 0.7s;
+}
+.quote-box:hover {
+    background: none;
+}
+.quote-box:hover .quote-body {
+    color: var(--accent);
+}
+.quote-box:hover .paragraph {
+    color: var(--accent) !important;
+}
